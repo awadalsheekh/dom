@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Site web Dynamique</title>
+</head>
+<body>
+
+    <div class="container text-center container-bg active-1">
+        <div class="row justify-content-center">
+<!-------- Header -------->
+            <div class="game-header"> 
+                <h1 class="game-menu"><a href="#" id="new-game"><i class="fa fa-plus-circle action-item-icon"></i></a></h1>
+            </div>
+
+<!----------- Left Side (Player 1) ---------->
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="player-0 active">
+                    <h1 id="name-0">PLAYER 1<span class="point"> &#8226;</span></h1>
+                    <div class="score">
+                        <span id="score-palyer-0">47</span>
+                    </div>
+                    <div class="box align-self-center">
+                        <div class="box-title">
+                            <span>CURRENT</span>
+                        </div>
+                        <div class="box-round">
+                            <span id="current-round-0">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!----------- End of Left Side ---------->
+
+<!----------- Middle Side (Actions) ------->
+            <div class="col-lg-4 order">
+                <div class="palyer-action">
+                    <span><img src="images/dom-1.png" id="dom" alt="dom image"></span>
+                </div>
+                <div class="rolldice-hold">
+                    <ul>
+                        <li class="action-item"><a href="#" class="rolldice"><i class="fas fa-sync-alt action-item-icon"></i>ROLLDICE</a></li>
+                        <li class="action-item"><a href="#" class="hold"><i class="fas fa-plus-circle action-item-icon"></i>HOLD</a></li>
+                    </ul>
+                </div>
+            </div>
+<!----------- End of Middle Side ---------->
+
+<!----------- Right Side (Player 2) ------->
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="player-1">
+                    <h1 id="name-1">PLAYER 2<span class="point"> &#8226;</span></h1>
+                    <div class="score">
+                        <span id="score-player-1">75</span>
+                    </div>
+                    <div class="box">
+                        <div class="box-title">
+                            <span>CURRENT</span>
+                        </div>
+                        <div class="box-round">
+                            <span id="current-round-1">12</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!----------- End of Right Side ---------->
+
+        </div>
+    </div>
+    
+</body>
+</html>
