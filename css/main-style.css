@@ -1,0 +1,82 @@
+
+
+.content-fixed {
+    position:fixed;
+
+}
+
+.container-bg {
+    background: linear-gradient(90deg,#aed6f1 50%,#d6eaf8 50%);
+    height: 80%;
+    width: 80%;
+    margin-top: 30px;
+    box-shadow: 2px 1px 5px  #d6dbdf;
+}
+
+h1 {
+    text-align: center;
+}
+
+.players {
+    align-items: center;
+}
+
+.player1 {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.player2 {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.option {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.round1 {
+    align-content: center;
+}
+
+.round1 span {
+    font-size: 85px;
+}
+
+
+.round2 {
+    align-content: center;
+}
+
+.round2 span {
+    font-size: 85px;
+}
+
+.box1 {
+    height: 75px;
+    width: 110px;
+    background: lightcoral;
+    color: #fff;
+    align-self: center;
+}
+
+.box2 {
+    height: 75px;
+    width: 110px;
+    background: lightcoral;
+    color: #fff;
+    align-self: center;
+}
+
+.options {
+    align-self: center;
+}
