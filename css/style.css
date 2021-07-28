@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightgray;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    font-size: 18px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+#dom {
+    height: 70px;
+    width: 70px;
+}
+
+.rolldice-hold {
+    text-align: center;
+}
+
+.container-bg {
+    /*background: linear-gradient(90deg,#D1F2EB 50%,#E8F8F5 50%);*/
+    height: 80%;
+    width: 80%;
+    margin-top: 30px;
+    box-shadow: 2px 1px 5px #424f5a;
+}
+
+.game-header {
+    padding: 35px;
+}
+
+.game-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.game-menu :hover {
+    color: #1ABC9C;
+    font-size: 1.5rem;
+}
+
+.player h1 {
+    font-size: 2.5rem;
+}
+
+.player-action {
+    padding-top: 65px;
+    padding-bottom: 120px;
+}
+
+.player-action img {
+    align-content: center;
+
+}
+
+.action-item a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.action-item :hover {
+    font-size: 1.3rem;
+    color: #1ABC9C;
+}
+
+.action-item-icon {
+    padding-right: 10px;
+    color: #1ABC9C;
+}
+
+
+
+.box {
+    height: 110px;
+    width: 150px;
+    background: #1ABC9C;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 125px;
+    margin-top: 65px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px #424f5a;
+}
+
+.box-title {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.box-round {
+    color: #fff;
+    padding: 5px;
+}
+
+.box-round span {
+    font-size: 2.5rem;
+}
+
+
+.score {
+    margin-bottom: 45px;
+}
+
+.score>span {
+    font-size: 3.5rem;
+    color: #1ABC9C;
+}
+
+.point {
+    color: rgba(0, 128, 128, 0);
+}
+
+.active .point {
+    color: tomato;
+
+}
+
+.winner {
+    color: tomato;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    body {
+        display: block;
+    }
+
+    ul li {
+        display: inline;
+        font-size: 0.8rem;
+        align-content: center;
+    }
+
+    .action-item a {
+        font-size: 0.8rem;
+        color: #333;
+    }
+
+
+    .game-header {
+        padding: 0;
+        font-size: 0.2rem;
+    }
+
+    .game-header a {
+        font-size: 0.8rem;
+    }
+
+    .player h1 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .box {
+        margin: 0;
+        margin-bottom: 0;
+        height: 40%;
+        width: 40%;
+    }
+
+    .order {
+        order: 3;
+
+    }
+
+    .player-action {
+        padding: 0;
+        margin-bottom: 5px;
+        margin-top: 10px;
+
+    }
+
+
+    .box-title {
+        font-size: 0.6rem;
+    }
+
+    .box-round {
+        padding: 0;
+    }
+
+    .box-round span {
+        font-size: 1.5rem;
+    }
+
+    .score {
+        margin-bottom: 0;
+    }
+
+    .score span {
+        font-size: 1.8rem;
+    }
+}
